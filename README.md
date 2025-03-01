@@ -5,15 +5,20 @@ This project is built using **Flask** for the backend and **HTML, CSS, and JavaS
 
 ---
 
-🚀 **Live Demo:** [SpamShield - Advanced Spam Detection](https://spamshield-advanced-spam-detection.onrender.com/) 
+🚀 **Live Demo:** [SpamShield - Advanced Spam Detection](https://spamshield-advanced-spam-detection.onrender.com/)  
 
-## 🖼️ Screenshot  
-![SpamShield UI Screenshot](![HomePage](https://github.com/user-attachments/assets/916c5e76-9b5a-4a7e-a7a1-3e335dfb1343))  
+---
 
-![Spam_Message_Screenshot](![SpamPage](https://github.com/user-attachments/assets/89eb659d-359d-48f6-be7b-81340ea43e3c)) 
+## 🖼️ Screenshots  
 
-![Not Spam_Message_Screenshot](![NotSpamPage](https://github.com/user-attachments/assets/a5f6ba26-9ca8-4a29-926a-4ff1943ff8b7))  
+### **🏠 Home Page**  
+![HomePage](https://github.com/user-attachments/assets/916c5e76-9b5a-4a7e-a7a1-3e335dfb1343)  
 
+### **❌ Spam Message Detection**  
+![SpamPage](https://github.com/user-attachments/assets/89eb659d-359d-48f6-be7b-81340ea43e3c)  
+
+### **✅ Not Spam Message Detection**  
+![NotSpamPage](https://github.com/user-attachments/assets/a5f6ba26-9ca8-4a29-926a-4ff1943ff8b7)  
 
 ---
 
@@ -40,5 +45,3 @@ This project is built using **Flask** for the backend and **HTML, CSS, and JavaS
 - **Frontend:** HTML, CSS, JavaScript  
 - **Deployment:** Render  
 - **Other:** Joblib, Scikit-Learn  
-
----
