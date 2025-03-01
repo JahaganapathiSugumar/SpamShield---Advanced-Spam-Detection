@@ -1,4 +1,4 @@
-![HomePage](https://github.com/user-attachments/assets/fde52572-adc1-4abe-98f0-07a946a7f703)# 📌 SpamShield - Advanced Spam Detection  
+# 📌 SpamShield - Advanced Spam Detection  
 
 SpamShield is a **machine learning-powered spam detection web app** that classifies messages as **Spam** or **Not Spam** using **Naïve Bayes & TF-IDF vectorization**.  
 This project is built using **Flask** for the backend and **HTML, CSS, and JavaScript** for the frontend, and is deployed on **Render**.
@@ -12,8 +12,7 @@ This project is built using **Flask** for the backend and **HTML, CSS, and JavaS
 ## 🖼️ Screenshots  
 
 ### **🏠 Home Page**  
-![HomePage](![HomePage](https://github.com/user-attachments/assets/53089b03-d975-4531-a5d9-260f8db1b35f)
-)
+![HomePage](https://github.com/user-attachments/assets/53089b03-d975-4531-a5d9-260f8db1b35f)
 
 ### **❌ Spam Message Detection**  
 ![SpamPage](https://github.com/user-attachments/assets/89eb659d-359d-48f6-be7b-81340ea43e3c)  
