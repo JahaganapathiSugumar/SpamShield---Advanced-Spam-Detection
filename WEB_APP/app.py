@@ -1,12 +1,12 @@
+import os
 from flask import Flask, render_template, request, jsonify
 import joblib
-import os
 
 app = Flask(__name__, template_folder="templates")
 
-# Correct file paths
-model_path = r"D:\IOT_LAB_EXP\EXP3\EMAIL_SPAM_DETECTION\MODEL\spam_classifier.pkl"
-vectorizer_path = r"D:\IOT_LAB_EXP\EXP3\EMAIL_SPAM_DETECTION\MODEL\tfidf_vectorizer.pkl"
+# Define paths to model files (relative to the current script)
+model_path = os.path.join(os.path.dirname(__file__), "MODEL", "spam_classifier.pkl")
+vectorizer_path = os.path.join(os.path.dirname(__file__), "MODEL", "tfidf_vectorizer.pkl")
 
 try:
     model = joblib.load(model_path)
@@ -31,4 +31,4 @@ def predict():
         return jsonify({'error': str(e)})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
